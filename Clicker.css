@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+}
+
+.Topcontainer
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 300px;
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+}   
+
+.Topcontainer left
+ {
+    display: flex;
+    align-items: center;
+}
+
+
+.ClickerLogo {
+    display: flex;
+    align-items: center;
+}
