@@ -1,5 +1,12 @@
-html, body {
-    height: 100%;
+html, body{
+  padding: 0;
+  margin: 0;
+}
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
 }
 
 .Topcontainer
@@ -11,9 +18,13 @@ html, body {
     padding: 20px 300px;
     margin: 0px;
     background-color: rgb(0, 0, 0);
-    text-decoration: none;
+   
 }   
 
+a {
+    text-decoration: none;
+    color: white;
+}
 
 .Topcontainer left
  {
@@ -27,3 +38,20 @@ html, body {
     align-items: center;
 }
 
+.gamecontainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 75%;
+    width: 100%;
+    background-color: silver;
+    bottom: 0px
+}
+
+.ClickerButton{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: none;
+}
