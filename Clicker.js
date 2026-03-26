@@ -38,23 +38,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
    
-    function saveGame() {
-        localStorage.setItem("clickerScore", score);
-        localStorage.setItem("clickerPower", clickPower);
-        localStorage.setItem("clickerCost", upgradeCost);
-    }
-
-  
-    function loadGame() {
-        const savedScore = localStorage.getItem("clickerScore");
-        const savedPower = localStorage.getItem("clickerPower");
-        const savedCost = localStorage.getItem("clickerCost");
-
-        if (savedScore !== null) score = parseInt(savedScore);
-        if (savedPower !== null) clickPower = parseInt(savedPower);
-        if (savedCost !== null) upgradeCost = parseInt(savedCost);
-
-        updateUI();
-    }
 
 });
