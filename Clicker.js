@@ -26,7 +26,6 @@ document.addEventListener("DOMContentLoaded", () => {
             clickPower += 1;
             upgradeCost = Math.floor(upgradeCost * 1.5);
             updateUI();
-            saveGame();
         }
     });
 
