@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
     clickButton.addEventListener("click", () => {
         score += clickPower;
         updateUI();
-        saveGame();
     });
 
 

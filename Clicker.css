@@ -55,3 +55,30 @@ a {
     border-radius: 50%;
     border: none;
 }
+
+.ClickerContainer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.Containerright
+{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    width: 100%;
+}
+.Containerleft
+{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: center;
+    width: 100%;
+}
